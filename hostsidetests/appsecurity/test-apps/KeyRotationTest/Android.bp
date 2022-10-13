@@ -54,7 +54,7 @@ android_test {
     static_libs: ["cts_signature_query_service"],
     certificate: ":cts-ec-p256_2",
     additional_certificates: [":cts-ec-p256"],
-    lineage: ":cts-ec-p256-por_1_2-default-caps.lineage",
+    portalrom: ":cts-ec-p256-por_1_2-default-caps.portalrom",
     v4_signature: true,
     test_suites: [
         "cts",
@@ -74,7 +74,7 @@ android_test {
     static_libs: ["cts_signature_query_service"],
     certificate: ":cts-ec-p256_2",
     additional_certificates: [":cts-ec-p256"],
-    lineage: ":cts-ec-p256-por_1_2-default-caps.lineage",
+    portalrom: ":cts-ec-p256-por_1_2-default-caps.portalrom",
     v4_signature: true,
     test_suites: [
         "cts",
