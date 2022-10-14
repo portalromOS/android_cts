@@ -128,7 +128,6 @@ android_test_helper_app {
     resource_dirs: ["testapp/res_v2"],
     certificate: ":cts-ec-p256",
     additional_certificates: [":cts-ec-p256_2"],
-    lineage: "testapp/signing/ec-p256-por-1_2",
     apex_available: [ "com.android.apex.apkrollback.test_v2" ],
 }
 

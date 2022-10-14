@@ -73,7 +73,6 @@ android_test {
     ],
     certificate: ":cts-ec-p256_2",
     additional_certificates: [":cts-ec-p256"],
-    portalrom: ":cts-ec-p256-por_1_2-default-caps.portalrom",
     v4_signature: true,
 
     // Disable dexpreopt and <uses-library> check for test.
